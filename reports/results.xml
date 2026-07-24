@@ -1,0 +1,14 @@
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="15.961067">
+<testsuite name="login.spec.js" timestamp="2026-07-24T08:08:24.668Z" hostname="Chromium" tests="1" failures="0" skipped="0" time="6.069" errors="0">
+<testcase name="SauceDemo Login › Successful Login" classname="login.spec.js" time="6.069">
+</testcase>
+</testsuite>
+<testsuite name="login.spec.js" timestamp="2026-07-24T08:08:24.668Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="4.8" errors="0">
+<testcase name="SauceDemo Login › Successful Login" classname="login.spec.js" time="4.8">
+</testcase>
+</testsuite>
+<testsuite name="login.spec.js" timestamp="2026-07-24T08:08:24.668Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="3.2" errors="0">
+<testcase name="SauceDemo Login › Successful Login" classname="login.spec.js" time="3.2">
+</testcase>
+</testsuite>
+</testsuites>
