@@ -45,3 +45,8 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+
+.idea/
+node_modules/
+test-results/
+playwright-report/
