@@ -39,7 +39,7 @@ module.exports = defineConfig({
 
     browserName: 'chromium',
 
-    headless: false,
+    headless: true,
 
     viewport: {
       width: 1920,
