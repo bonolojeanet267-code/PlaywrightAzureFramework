@@ -2,10 +2,8 @@ class AzureReporter {
 
     onBegin(config, suite) {
 
-        console.log('=================================');
         console.log('Starting Playwright Execution...');
         console.log(`Total Tests: ${suite.allTests().length}`);
-        console.log('=================================');
 
     }
 
@@ -31,9 +29,6 @@ class AzureReporter {
             console.log(`Azure Test Case: ${azureTestCaseId}`);
             console.log(`Azure Status: ${azureStatus}`);
 
-            // Next we'll call Azure APIs here
-            // await testRunService.updateResult(...);
-
         }
 
         console.log('---------------------------------');
@@ -42,9 +37,7 @@ class AzureReporter {
 
     onEnd() {
 
-        console.log('=================================');
         console.log('Execution Finished');
-        console.log('=================================');
 
     }
 
