@@ -6,7 +6,7 @@ test.describe('SauceDemo Login Tests', () => {
 
     test('@smoke @regression Successful Login', async ({ page, loginPage, inventoryPage }) => {
 
-        // Azure Test Case Mapping
+
         test.info().annotations.push({
             type: 'AzureTestCase',
             description: AzureTestCase.map.SuccessfulLogin.toString()
